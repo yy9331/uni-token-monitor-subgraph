@@ -1,13 +1,13 @@
 {
-  "name": "uniswap-trading-monitor",
+  "name": "uni-token-monitor",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ uniswap-trading-monitor",
-    "create-local": "graph create --node http://localhost:8020/ uniswap-trading-monitor",
-    "remove-local": "graph remove --node http://localhost:8020/ uniswap-trading-monitor",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 uniswap-trading-monitor",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ uni-token-monitor-subgraph",
+    "create-local": "graph create --node http://localhost:8020/ uni-token-monitor-subgraph",
+    "remove-local": "graph remove --node http://localhost:8020/ uni-token-monitor-subgraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 uni-token-monitor-subgraph",
     "test": "graph test"
   },
   "dependencies": {
